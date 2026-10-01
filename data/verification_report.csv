@@ -1,0 +1,27 @@
+indicator,area,period,value,unit,page,model,provenance,evidence,unit_range,arithmetic,cross_read,status,reason
+tableau1,Exportations/تارداصلا,2026/25,8.0,%,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Exportations/تارداصلا,2025/24,0.3,%,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Exportations/تارداصلا,2026,44671.6,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Exportations/تارداصلا,2025,41372.4,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Exportations/تارداصلا,2024,41512.1,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Importations/تادراولا,2026/25,11.6,%,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Importations/تادراولا,2025/24,4.8,%,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Importations/تادراولا,2026,62525.4,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Importations/تادراولا,2025,56011.3,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Importations/تادراولا,2024,53436.8,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Solde Commercial,2026,-17853.8,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Solde Commercial,2025,-14639.0,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Solde Commercial,2024,-11924.7,MD,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Taux de couverture,2026,71.4,%,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Taux de couverture,2025,73.9,%,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+tableau1,Taux de couverture,2024,77.7,%,2,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+part_exportations_partenaires,France,,0.5,%,5,openai/gpt-oss-120b,False,True,True,True,no-row,dropped,0.5 is not printed on page 5
+part_exportations_partenaires,Italie,,16.9,%,5,openai/gpt-oss-120b,False,True,True,True,no-row,dropped,16.9 is not printed on page 5
+part_exportations_partenaires,Allemagne,,13.8,%,5,openai/gpt-oss-120b,False,True,True,True,no-row,dropped,13.8 is not printed on page 5
+part_exportations_partenaires,Espagne,,5.3,%,5,openai/gpt-oss-120b,False,True,True,True,no-row,dropped,5.3 is not printed on page 5
+part_exportations_partenaires,Libye,,3.6,%,5,openai/gpt-oss-120b,False,True,True,True,no-row,dropped,3.6 is not printed on page 5
+part_importations_partenaires,Allemagne,,7.9,%,5,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+part_importations_partenaires,Chine,,12.6,%,5,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+part_importations_partenaires,Italie,,11.9,%,5,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+part_importations_partenaires,France,,11.4,%,5,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+part_importations_partenaires,Algérie,,7.0,%,5,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
