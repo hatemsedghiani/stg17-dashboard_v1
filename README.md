@@ -1,3 +1,9 @@
+**Live dashboard: <https://hatemsedghiani.github.io/stg17-dashboard_v1/>**
+
+Rebuilt by running the notebook in this repository against the source publication. Last published 2026-10-01.
+
+---
+
 # Current Price Values for the Eight Months
 
 Bilingual (EN/FR) dashboard built from **Commerce Extérieur**, pages 2, 3, 5.
