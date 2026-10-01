@@ -1,0 +1,684 @@
+{
+ "meta": {
+  "publisher": {
+   "en": "National Institute of Statistics",
+   "fr": "Institut National de la Statistique"
+  },
+  "country": {
+   "en": "",
+   "fr": ""
+  },
+  "docTitle": {
+   "en": "Commerce Extérieur",
+   "fr": "Commerce Extérieur"
+  },
+  "period": {
+   "en": "",
+   "fr": ""
+  },
+  "sourceUrl": "https://www.ins.tn/sites/default/files-ftp3/files/publication/pdf/Note_Comext_08_2026.pdf",
+  "licence": {
+   "en": "Source data: as published by the institute. Dashboard code: MIT.",
+   "fr": "Données source : telles que publiées par l'institut. Code : MIT."
+  },
+  "contact": {
+   "en": "Built at the STG17 technical workshop, lab 02.",
+   "fr": "Réalisé lors de l'atelier technique STG17, labo 02."
+  },
+  "defaultLang": "fr",
+  "synthetic": false,
+  "generated": "2026-10-01"
+ },
+ "areas": [
+  {
+   "id": "algerie",
+   "fr": "Algérie",
+   "en": "Algeria"
+  },
+  {
+   "id": "allemagne",
+   "fr": "Allemagne",
+   "en": "Germany"
+  },
+  {
+   "id": "chine",
+   "fr": "Chine",
+   "en": "China"
+  },
+  {
+   "id": "exportations",
+   "fr": "Exportations/تارداصلا",
+   "en": "Exports"
+  },
+  {
+   "id": "france",
+   "fr": "France",
+   "en": "France"
+  },
+  {
+   "id": "importations",
+   "fr": "Importations/تادراولا",
+   "en": "Imports"
+  },
+  {
+   "id": "italie",
+   "fr": "Italie",
+   "en": "Italy"
+  },
+  {
+   "id": "solde-commercial",
+   "fr": "Solde Commercial",
+   "en": "Trade balance"
+  },
+  {
+   "id": "taux-de-couverture",
+   "fr": "Taux de couverture",
+   "en": "Coverage rate"
+  }
+ ],
+ "kpis": [
+  {
+   "labels": {
+    "en": "Exports 2024",
+    "fr": "Exportations 2024"
+   },
+   "value": 41512.1,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "Imports 2024",
+    "fr": "Importations 2024"
+   },
+   "value": 53436.8,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "Commercial Balance 2024",
+    "fr": "Solde Commercial 2024"
+   },
+   "value": -11924.7,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "Coverage Rate 2024",
+    "fr": "Taux de couverture 2024"
+   },
+   "value": 77.7,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  }
+ ],
+ "series": {
+  "tableau1": {
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "periods": [
+    "2024",
+    "2025",
+    "2025/24",
+    "2026",
+    "2026/25"
+   ],
+   "values": {
+    "exportations": [
+     41512.1,
+     41372.4,
+     0.3,
+     44671.6,
+     8.0
+    ],
+    "importations": [
+     53436.8,
+     56011.3,
+     4.8,
+     62525.4,
+     11.6
+    ],
+    "solde-commercial": [
+     -11924.7,
+     -14639.0,
+     null,
+     -17853.8,
+     null
+    ],
+    "taux-de-couverture": [
+     77.7,
+     73.9,
+     null,
+     71.4,
+     null
+    ]
+   }
+  },
+  "part_importations_partenaires": {
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "periods": [
+    "None"
+   ],
+   "values": {
+    "algerie": [
+     7.0
+    ],
+    "allemagne": [
+     7.9
+    ],
+    "chine": [
+     12.6
+    ],
+    "france": [
+     11.4
+    ],
+    "italie": [
+     11.9
+    ]
+   }
+  }
+ },
+ "views": [
+  {
+   "id": "tableau1",
+   "chart": "grouped",
+   "tab": {
+    "en": "Exports, Imports, Commercial Balance, Coverage Rate",
+    "fr": "Exportations, Importations, Solde Commercial, Taux de couverture"
+   },
+   "title": {
+    "en": "Exports, Imports, Commercial Balance, Coverage Rate",
+    "fr": "Exportations, Importations, Solde Commercial, Taux de couverture"
+   },
+   "sub": {
+    "en": "Current price values (Millions of Dinars)",
+    "fr": "Valeurs aux prix courants (Millions de Dinars)"
+   },
+   "lede": {
+    "en": "Values are expressed in percentage.",
+    "fr": "Les valeurs sont exprimées en pourcentage."
+   },
+   "src": {
+    "en": "tableau1",
+    "fr": "tableau1"
+   }
+  },
+  {
+   "id": "part_importations_partenaires",
+   "chart": "bar",
+   "tab": {
+    "en": "Share of Imports by Partner",
+    "fr": "Part des importations par partenaire"
+   },
+   "title": {
+    "en": "Share of Imports with Main Partners",
+    "fr": "Part des importations avec les principaux partenaires"
+   },
+   "sub": {
+    "en": "Share of imports (in %)",
+    "fr": "Part des importations (en %)"
+   },
+   "lede": {
+    "en": "Shares are expressed as a percentage of total imports.",
+    "fr": "Les parts sont exprimées en pourcentage du total des importations."
+   },
+   "src": {
+    "en": "part_importations_partenaires",
+    "fr": "part_importations_partenaires"
+   }
+  }
+ ],
+ "facts": [
+  {
+   "indicator": "tableau1",
+   "area": "exportations",
+   "period": "2026/25",
+   "value": 8.0,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "8,0% 0,3%- 44671,6 41372,4 41512,1 Exportations/تارداصلا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "exportations",
+   "period": "2025/24",
+   "value": 0.3,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "8,0% 0,3%- 44671,6 41372,4 41512,1 Exportations/تارداصلا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "exportations",
+   "period": "2026",
+   "value": 44671.6,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "8,0% 0,3%- 44671,6 41372,4 41512,1 Exportations/تارداصلا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "exportations",
+   "period": "2025",
+   "value": 41372.4,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "8,0% 0,3%- 44671,6 41372,4 41512,1 Exportations/تارداصلا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "exportations",
+   "period": "2024",
+   "value": 41512.1,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "8,0% 0,3%- 44671,6 41372,4 41512,1 Exportations/تارداصلا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "importations",
+   "period": "2026/25",
+   "value": 11.6,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "11,6% 4,8% 62525,4 56011,3 53436,8 Importations/تادراولا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "importations",
+   "period": "2025/24",
+   "value": 4.8,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "11,6% 4,8% 62525,4 56011,3 53436,8 Importations/تادراولا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "importations",
+   "period": "2026",
+   "value": 62525.4,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "11,6% 4,8% 62525,4 56011,3 53436,8 Importations/تادراولا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "importations",
+   "period": "2025",
+   "value": 56011.3,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "11,6% 4,8% 62525,4 56011,3 53436,8 Importations/تادراولا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "importations",
+   "period": "2024",
+   "value": 53436.8,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "11,6% 4,8% 62525,4 56011,3 53436,8 Importations/تادراولا",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "solde-commercial",
+   "period": "2026",
+   "value": -17853.8,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "17853,8- 14639,0- 11924,7-",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "solde-commercial",
+   "period": "2025",
+   "value": -14639.0,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "17853,8- 14639,0- 11924,7-",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "solde-commercial",
+   "period": "2024",
+   "value": -11924.7,
+   "unit": {
+    "en": "Millions of Dinars",
+    "fr": "MD"
+   },
+   "page": 2,
+   "snippet": "17853,8- 14639,0- 11924,7-",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "taux-de-couverture",
+   "period": "2026",
+   "value": 71.4,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "71,4% 73,9% 77,7%",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "taux-de-couverture",
+   "period": "2025",
+   "value": 73.9,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "71,4% 73,9% 77,7%",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "tableau1",
+   "area": "taux-de-couverture",
+   "period": "2024",
+   "value": 77.7,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 2,
+   "snippet": "71,4% 73,9% 77,7%",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "part_importations_partenaires",
+   "area": "allemagne",
+   "period": "None",
+   "value": 7.9,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 5,
+   "snippet": "7,9%",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "part_importations_partenaires",
+   "area": "chine",
+   "period": "None",
+   "value": 12.6,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 5,
+   "snippet": "12,6%",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "part_importations_partenaires",
+   "area": "italie",
+   "period": "None",
+   "value": 11.9,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 5,
+   "snippet": "11,9%",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "part_importations_partenaires",
+   "area": "france",
+   "period": "None",
+   "value": 11.4,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 5,
+   "snippet": "11,4%",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "part_importations_partenaires",
+   "area": "algerie",
+   "period": "None",
+   "value": 7.0,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 5,
+   "snippet": "7,0%",
+   "status": "ok",
+   "note": null
+  }
+ ],
+ "indicators": {
+  "tableau1": {
+   "fr": "Les Valeurs aux prix courants des huit mois (Millions de Dinars)",
+   "en": "Current price values for eight months (Millions of Dinars)"
+  },
+  "part_importations_partenaires": {
+   "fr": "part des importations avec les principaux partenaires",
+   "en": "Share of imports with main partners"
+  }
+ },
+ "i18n": {
+  "en": {
+   "sourceDoc": "Source publication",
+   "tabOverview": "Overview",
+   "tabData": "Data & sources",
+   "filterLabel": "Areas",
+   "reset": "Reset",
+   "searchPh": "Search an indicator, an area, a year…",
+   "btnCsv": "Download CSV",
+   "btnJson": "Download JSON",
+   "thIndicator": "Indicator",
+   "thArea": "Area",
+   "thPeriod": "Period",
+   "thValue": "Value",
+   "thUnit": "Unit",
+   "thPage": "Page",
+   "thStatus": "Check",
+   "noRows": "No figure matches this search.",
+   "statusOk": "Verified",
+   "statusWarn": "To review",
+   "provLabel": "Read from the source document, page",
+   "calloutTitle": "Read this before reusing the figures",
+   "calloutBody": "These figures were extracted from a PDF by a language model and then checked automatically against the source text. Rows marked “To review” failed at least one check and have not been confirmed by a statistician. Always cite the original publication, not this dashboard.",
+   "dataTitle": "Data & sources",
+   "dataLede": "Every figure on this dashboard, with the page it came from and the line of text it was read from. Search, sort, open a row to see the source, export.",
+   "limTitle": "Limitations",
+   "methTitle": "How this dashboard was built",
+   "methBody": "Text was extracted from the PDF page by page. A rules-based reader and a language model each transcribed the tables independently, and every cell was checked for page provenance, quoted evidence, unit and range, reconciliation with published totals, and agreement between the two readings. The notebook, the prompts and the verification report are in the repository.",
+   "fSource": "Source",
+   "fLicence": "Licence",
+   "fBuilt": "Built with",
+   "fContact": "Contact",
+   "fBuiltBody": "Python, an LLM extraction pipeline, Chart.js. No tracking, no cookies, no server — a single HTML file.",
+   "stamp": "Dashboard generated on {date}. Figures are the responsibility of the source institution; the presentation is the responsibility of the team that built this page.",
+   "syntheticWarn": "Demonstration data — fictional country, for training purposes only.",
+   "kicker": "Foreign Trade",
+   "title": "Current Price Values for the Eight Months",
+   "subtitle": "Exports, Imports, Commercial Balance, Coverage Rate",
+   "ovTitle": "Share of Imports by Partner",
+   "ovLede": "Distribution of imports among the main trading partners",
+   "limBody": "",
+   "publisher": "National Institute of Statistics",
+   "period": ""
+  },
+  "fr": {
+   "sourceDoc": "Publication source",
+   "tabOverview": "Vue d'ensemble",
+   "tabData": "Données et sources",
+   "filterLabel": "Zones",
+   "reset": "Réinitialiser",
+   "searchPh": "Chercher un indicateur, une zone, une année…",
+   "btnCsv": "Télécharger le CSV",
+   "btnJson": "Télécharger le JSON",
+   "thIndicator": "Indicateur",
+   "thArea": "Zone",
+   "thPeriod": "Période",
+   "thValue": "Valeur",
+   "thUnit": "Unité",
+   "thPage": "Page",
+   "thStatus": "Contrôle",
+   "noRows": "Aucun chiffre ne correspond à cette recherche.",
+   "statusOk": "Vérifié",
+   "statusWarn": "À revoir",
+   "provLabel": "Lu dans le document source, page",
+   "calloutTitle": "À lire avant de réutiliser les chiffres",
+   "calloutBody": "Ces chiffres ont été extraits d'un PDF par un modèle de langage, puis contrôlés automatiquement contre le texte source. Les lignes marquées « À revoir » ont échoué à au moins un contrôle et n'ont pas été confirmées par un statisticien. Citez toujours la publication d'origine, pas ce tableau de bord.",
+   "dataTitle": "Données et sources",
+   "dataLede": "Tous les chiffres de ce tableau de bord, avec la page dont ils proviennent et la ligne de texte dont ils ont été lus. Cherchez, triez, ouvrez une ligne pour voir la source, exportez.",
+   "limTitle": "Limites",
+   "methTitle": "Comment ce tableau de bord a été construit",
+   "methBody": "Le texte a été extrait du PDF page par page. Un lecteur à base de règles et un modèle de langage ont transcrit les tableaux indépendamment, et chaque cellule a été contrôlée : provenance de page, citation vérifiée, unité et plage, réconciliation avec les totaux publiés, et accord entre les deux lectures. Le notebook, les prompts et le rapport de vérification sont dans le dépôt.",
+   "fSource": "Source",
+   "fLicence": "Licence",
+   "fBuilt": "Réalisé avec",
+   "fContact": "Contact",
+   "fBuiltBody": "Python, une chaîne d'extraction par LLM, Chart.js. Aucun traceur, aucun cookie, aucun serveur — un seul fichier HTML.",
+   "stamp": "Tableau de bord généré le {date}. Les chiffres relèvent de la responsabilité de l'institution source ; la présentation relève de la responsabilité de l'équipe qui a construit cette page.",
+   "syntheticWarn": "Données de démonstration — pays fictif, à usage pédagogique uniquement.",
+   "kicker": "Commerce Extérieur",
+   "title": "Valeurs aux prix courants des huit mois",
+   "subtitle": "Exportations, Importations, Solde Commercial, Taux de couverture",
+   "ovTitle": "Part des importations par partenaire",
+   "ovLede": "Répartition des importations par les principaux partenaires commerciaux",
+   "limBody": "",
+   "publisher": "Institut National de la Statistique",
+   "period": ""
+  }
+ },
+ "overviewScatter": {
+  "x": "tableau1",
+  "y": "part_importations_partenaires",
+  "title": {
+   "en": "Share of imports with main partners against Current price values for eight months (Millions of Dinars)",
+   "fr": "part des importations avec les principaux partenaires et Les Valeurs aux prix courants des huit mois (Millions de Dinars)"
+  },
+  "sub": {
+   "en": "One point per area — an association, not a causal claim",
+   "fr": "Un point par zone — une association, pas une relation causale"
+  },
+  "src": {
+   "en": "No significance test performed.",
+   "fr": "Aucun test de significativité réalisé."
+  }
+ }
+}
